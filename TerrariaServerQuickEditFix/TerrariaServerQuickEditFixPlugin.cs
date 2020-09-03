@@ -12,7 +12,7 @@ namespace TerrariaServerQuickEditFix
         #region Data
 
         public override string Name => "TerrariaServer.exe QuickEdit fix";
-        public override string Author => "https://stackoverflow.com/a/36720802 implemented by Anzhelika";
+        public override string Author => "https://stackoverflow.com/a/36720802 applied by Anzhelika";
         public override Version Version => new Version(1, 0, 0, 0);
         public override string Description => "Enables QuickEdit mode in TerrariaServer.exe application";
         public TerrariaServerQuickEditFixPlugin(Main Game) : base(Game) { }
